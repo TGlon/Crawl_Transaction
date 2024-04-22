@@ -11,7 +11,7 @@ export async function run(provider: NetworkProvider) {
         name: "Along",
         description: "This is description of Test Jetton Token in Tact-lang",
         symbol: "AL",
-        image: "https://i.pinimg.com/736x/84/d7/56/84d7567480a75bc45be368649139adf3.jpg",
+        image: "https://i.pinimg.com/474x/30/ce/6f/30ce6fac371d5eb753d70241af0884b0.jpg",
     };
 
     // Create content Cell
@@ -27,7 +27,7 @@ export async function run(provider: NetworkProvider) {
         },
         {
             $$type: 'Mint', 
-            amount: 200000000000n, 
+            amount: 2000000000000n, 
             receiver: Address.parse("0QB56RbbrikjhcKVegAfhExt9_RjOeDiyzaN2_IwtLEALhgm")
         }
     );   
